@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #161623;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+/* .container .none {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+} */
+
+.container .card {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.container .card .content {
+    padding: 20px;
+    text-align: center;
+    transform: translateY(20px);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.container .card:hover .content {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.container .card .content h2 {
+    position: absolute;
+    top: -80px;
+    right: 10px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+}
+
+.container .card .content h3 {
+    font-size: 1.8em;
+    color: #fff;
+    z-index: 1;
+}
+
+.container .card .content p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.container .card .content a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .content .player {
+    width: 200px;
+    height: 200px;
+}
+
+.container .card .content .team {
+    /* box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); */
+    color: whitesmoke;
+}
+
+.container .card .content .galatasaray {
+    background: linear-gradient(#a90432, #fdb912);
+}
+
+.container .card .content .trabzonspor {
+    background: linear-gradient(#a11010, #0b1af3);
+}
+
+.container .card .content .fenerbahce {
+    background: linear-gradient(#002d72, #ffed00);
+}
+
+.container .card .content .besiktas {
+    background: linear-gradient(#ffffff, #000000);
+}
+
+.container .card .content .basaksehir {
+    background: linear-gradient(#1e3a58, #ed5e27);
+}
+
+.container .card .content .adana {
+    background: linear-gradient(#010066, #9acefe);
+}
+
+.container .card .content .rize {
+    background: linear-gradient(#009430, #008bd0);
+}
+
+.container .card .content .konya {
+    background: linear-gradient(#ffffff, #00804d);
+    color: #000000;
+}
+
+.container .card .content .antalya {
+    background: linear-gradient(#ffffff, #eb232c);
+    color: #000000;
+}
+
+.container .card .content .alanya {
+    background: linear-gradient(#f58220, #42a13f);
+}
+
+.container .card .content .karagumruk {
+    background: linear-gradient(#000000, #ec2c22);
+}
+
+.container .card .content .hatay {
+    background: linear-gradient(#7e2223, #cd131d);
+}
+
+.container .card .content .giresun {
+    background: linear-gradient(#F1EFF1, #00602F);
+    color: #000000;
+}
+
+.container .card .content .gaziantep {
+    background: linear-gradient(#bc282f, #1f211d);
+}
+
+.container .card .content .goztepe {
+    background: linear-gradient(#f6c012, #e82029);
+}
+
+.container .card .content .kayseri {
+    background: linear-gradient(#fc0, #cc0001);
+}
+
+.container .card .content .malatya {
+    background: linear-gradient(#1b1918, #f4e400);
+}
+
+.container .card .content .altay {
+    background: linear-gradient(#1b1918, #f4e400);
+}
+
+.container .card .content .sivas {
+    background: linear-gradient(#ffffff, #da0020);
+    color: #000000;
+}
+
+.container .card .content .kasimpasa {
+    background: linear-gradient(#fff, #2f4ba6);
+    color: #000000;
+}
+
+.container .card .content .altay {
+    background: linear-gradient(#000000, #ffffff);
+}
+
+small {
+    color:whitesmoke;
+}
+/* @media only screen and (max-width: 1500px) {
+    .container .none {
+        display: none;
+    }
+} */
