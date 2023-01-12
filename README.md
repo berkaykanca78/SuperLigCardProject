@@ -1,3 +1,3 @@
 # SuperLigCardProject
 
-<p><img align="center" src="images/screenshoot.png" alt="Screenshoot" /></p>
+<p><img align="center" src="images/SuperLigCardProject.png" alt="Screenshoot" /></p>
